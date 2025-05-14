@@ -509,13 +509,7 @@ export default function WebAppSopPage() {
                   Your browser does not support the video tag.
                 </video>
 
-                {/* Lock overlay if not completed */}
-                {!videoWatched && (
-                  <div className="absolute bottom-0 left-0 right-0 bg-white bg-opacity-90 p-4 text-black flex items-center border-t border-gray-200">
-                    <Lock className="h-4 w-4 mr-2" />
-                    <span className="text-sm">You must watch the entire video to complete this SOP</span>
-                  </div>
-                )}
+                
               </div>
             </div>
 
